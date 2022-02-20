@@ -92,13 +92,13 @@ section {
 .active_link {
   background: rgb(69, 211, 236);
   border-radius: 5px;
-  color: #fff;
+  color: #0000;
   transition: ease 0.3s all;
 }
 /* Header Styles */
 .page__header {
   background: #fff;
-  position: fixed;
+  position:sticky;
   top: 0;
   width: 100%;
   z-index: 5;
@@ -121,7 +121,7 @@ section {
   padding: 1em;
   text-align: left;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .navbar__menu ul li {
     width: 100%;
     font-size: 85%;
@@ -131,6 +131,18 @@ section {
   .landing__container {
     max-width: 50em;
     padding: 4em;
+  }
+    .navbar__menu .menu__link {
+    border-radius: 5px;
+    color: #000;
+    transition: ease 0.3s all;
+  }
+
+  .navbar__menu .menu__link.active_link {
+    background: rgb(69, 211, 236);
+    border-radius: 5px;
+    color: #fff;
+    transition: ease 0.3s all;
   }
 }
 
