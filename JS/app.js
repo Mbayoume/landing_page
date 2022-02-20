@@ -41,11 +41,9 @@ for (const item of pageSections) {
     // (e)event parameter
     //   prevent default action for the iteration
     e.preventDefault();
-    /*using the scroollIntoView method for smooth scroll 
-      and centering the section in the view port of the user without computing the size of 
-      the element*/
+    /*using the scroollIntoView method for smooth scroll */
 
-    item.scrollIntoView({ behavior: "smooth", block: "center" });
+    item.scrollIntoView({ behavior: "smooth" });
   });
   // append the HTMLfragment to the ul
   navList.appendChild(fragment);
