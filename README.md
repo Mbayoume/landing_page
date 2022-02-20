@@ -34,7 +34,7 @@ getAttribute()
 
 ```
 
-- for the smooth scroll part i chosed the scrollIntoView() to center the block of the element
+- for the smooth scroll part i chosed the scrollIntoView() to scroll to the active element
   and i got some resource for this on [youtube](https://www.youtube.com/watch?v=HIWWBHB3xHY&t=308s) and
   [mdn](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView)
 
